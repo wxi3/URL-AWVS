@@ -5,7 +5,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 
-apikey = '1986ad8c0a5b3df4d7028d5f3c06e936c3c3a169e8ffc48cb8dd9e8dedac867e3'#API
+apikey = 'input yourself api in here'#API
 headers = {'Content-Type': 'application/json',"X-Auth": apikey}
 
 def get_titles():
